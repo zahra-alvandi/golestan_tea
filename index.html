@@ -14,26 +14,30 @@
 
     <!-- header -->
     <div class="bg_color">
-        <div class="golestan-logo m-2 mt-0 pt-2 text-center ">
-            <img src="./images/golestan-logo.png" alt="">
-        </div>
-        <!-- navbar-mobile -->
-        <nav class="navbar">
-            <div class="container-fluid">
+        <div class="d-lg-flex justify-content-center align-items-center p-lg-2 container-lg  bg_color">
+            <div class="golestan-logo m-2 mt-0 pt-2 text-center">
+                <img src="./images/golestan-logo.png" class="position-absolute d-flex d-lg-none sm-logo" alt="">
+                <div class="position-relative">
+                    <img src="./images/golestan-logo.png" class="position-absolute d-none d-lg-block lg-logo" alt="">
+                </div>
+            </div>
+            <!-- navbar-mobile -->
+            <nav class="navbar container d-flex justify-content-center">
+                <div class="d-flex">
 
-                <button class="navbar-toggler border-0 d-flex justify-content-end menu_icon d-md-none d-block"
-                    type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#afb2b4"
-                        class="bi bi-list navbar-toggler-icon" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-                    </svg>
+                    <button class="navbar-toggler border-0 justify-content-end menu_icon d-md-none d-block"
+                        type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#afb2b4"
+                            class="bi bi-list navbar-toggler-icon" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg>
 
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <!-- <div class="offcanvas-header">
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <!-- <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
@@ -65,38 +69,39 @@
                             <button class="btn btn-outline-success" type="submit">Search</button>
                         </form>
                     </div> -->
+                    </div>
+
+
+
+
                 </div>
-
-
-
-
-            </div>
-            <!-- navbar-desktop -->
-            <nav class="pb-md-4 d-md-block d-none">
-                <div class="container">
-                    <ul class="d-flex justify-content-center align-items-center list-unstyled m-0">
-                        <li class="px-3">
-                            <a href="#" class="text-decoration-none navbar-text-color">Home</a>
-                        </li>
-                        <li class="px-3">
-                            <a href="#" class="text-decoration-none navbar-text-color">About Us</a>
-                        </li>
-                        <li class="px-3">
-                            <a href="#" class="text-decoration-none navbar-text-color">Brands</a>
-                        </li>
-                        <li class="px-3">
-                            <a href="#" class="text-decoration-none navbar-text-color">Products</a>
-                        </li>
-                        <li class="px-3">
-                            <a href="#" class="text-decoration-none navbar-text-color">Contact Us</a>
-                        </li>
-                        <li class="px-3">
-                            <a href="#" class="text-decoration-none navbar-text-color">FA</a>
-                        </li>
-                    </ul>
-                </div>
+                <!-- navbar-desktop -->
+                <nav class="d-md-block d-none navbar-desktop-lg">
+                    <div class="container">
+                        <ul class="d-flex justify-content-center align-items-center list-unstyled m-0">
+                            <li class="px-3 border-lg">
+                                <a href="#" class="text-decoration-none navbar-text-color">Home</a>
+                            </li>
+                            <li class="px-3 border-lg">
+                                <a href="#" class="text-decoration-none navbar-text-color">About Us</a>
+                            </li>
+                            <li class="px-3 border-lg">
+                                <a href="#" class="text-decoration-none navbar-text-color">Brands</a>
+                            </li>
+                            <li class="px-3 border-lg">
+                                <a href="#" class="text-decoration-none navbar-text-color">Products</a>
+                            </li>
+                            <li class="px-3 border-lg">
+                                <a href="#" class="text-decoration-none navbar-text-color">Contact Us</a>
+                            </li>
+                            <li class="px-3">
+                                <a href="#" class="text-decoration-none navbar-text-color">FA</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </nav>
-        </nav>
+        </div>
     </div>
 
     <!-- section 1 -->
@@ -112,11 +117,11 @@
                 <h2 class="ps-3 h2-color-gray h2-title-fs fw-lighter">Fluent in taste</h2>
             </div>
         </div>
-        <div class="d-none d-md-grid container">
+        <div class="d-none d-md-grid container-md">
             <div class="row">
-                <div class="p-3 col align-content-center">
-                    <h2 class="ps-3 h2-color-red golestan-tea-fs-md">Golestan Tea</h2>
-                    <h2 class="ps-3 h2-color-gray h2-title-fs fw-lighter">Fluent in taste</h2>
+                <div class="p-3 col align-content-center w-75">
+                    <h2 class="ps-3 ps-lg-5 h2-color-red golestan-tea-fs-md text-lg-center">Golestan Tea</h2>
+                    <h2 class="ps-3 h2-color-gray h2-title-fs fw-lighter text-lg-center">Fluent in taste</h2>
                 </div>
                 <div class="p-3 col">
                     <div class="d-flex justify-content-center">
@@ -129,7 +134,279 @@
     </div>
 
     <!-- introduction -->
+    <div class="container-md">
+        <div class="m-4 p-2">
+            <div class="mb-3">
+                <h2 class="h2-color-red fw-lighter">Introduction</h2>
+            </div>
+            <div>
+                <p class="h2-color-gray p-intro-text-fs text-justify lh-lg fw-lighter">
+                    Since its foundation, Golestan has been expanding the range of its products and now it
+                    processes, packages and distributes all different types of teas, rice, spices, pistachios and
+                    other food products. To meet all the national and international food standards, our products go
+                    through quality control in our well-equipped laboratories and then packed using the most
+                    sophisticated automatic machines in a highly hygienic environment.
 
+                </p>
+            </div>
+        </div>
+        <div class="m-4 p-2">
+            <div>
+                <p class="h2-color-gray p-intro-text-fs text-justify lh-lg fw-lighter">
+                    <span class="h2-color-red">Golestan Tea:</span>
+                    Sourced from the best tea estates on the bank of Brahmaputra River in Assam and Darjeeling, India,
+                    Glestan teas possess the smell and flavor of the traditional Indian teas.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- products -->
+    <div class="container-md">
+        <div class="products-margin">
+            <div class="px-3">
+                <div class="px-2 display-md">
+                    <div class="d-flex justify-content-center">
+                        <div>
+                            <img src="./images/product-tea-1-1.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-center">
+                        <div class="d-flex align-items-center p-3 container border-bottom border-secondary">
+                            <div>
+                                <img src="./images/herbal-icon.png" alt="">
+                            </div>
+                            <div class="span-widget">
+                                <span class="h2-color-red">Fragrant Earl Grey Tea</span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-column flex-md-row justify-content-md-between border-bottom border-secondary py-1">
+                            <div class="pt-1">
+                                <p class="p-products-color p-products-fs fw-bold">Net Weight</p>
+                            </div>
+                            <div class="d-flex justify-content-end pb-1">
+                                <div class="pe-1">
+                                    <img src="./images/500gr-icon-2.png" alt="">
+                                </div>
+                                <div class="pe-1">
+                                    <img src="./images/225gr-icon-2.png" alt="">
+                                </div>
+                                <div class="pe-1">
+                                    <img src="./images/100gr-icon-1-1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-4">
+                            <p class="text-justify h2-color-gray">
+                                Golestan Earl Grey tea is a unique blend of imported teas scented with
+                                bergamot. The tea suits Iranian palates.
+                                <br>
+                                Infusion time: 7 to 8 minutes
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- products-number2 -->
+        <div class="products-margin">
+            <div class="px-3">
+                <div class="px-2 container-md">
+                    <div class="d-flex justify-content-center">
+                        <div>
+                            <img src="./images/product-tea-3-1.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-center">
+                        <div class="d-flex align-items-center p-3 container border-bottom border-secondary">
+                            <div>
+                                <img src="./images/herbal-icon.png" alt="">
+                            </div>
+                            <div class="span-widget">
+                                <span class="h2-color-red ">Ceylon Gold Tea</span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-column border-bottom border-secondary">
+                            <div class="pt-1">
+                                <p class="p-products-color p-products-fs fw-bold">Net Weight</p>
+                            </div>
+                            <div class="d-flex justify-content-end pb-1">
+                                <div class="pe-1">
+                                    <img src="./images/500gr-icon-2.png" alt="">
+                                </div>
+
+                                <div class="pe-1">
+                                    <img src="./images/100gr-icon-1-1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-4">
+                            <p class="text-justify h2-color-gray">
+                                Golestan Ceylon Gold Tea comes from the youngest tea plants in Sri Lankan
+                                tea estates which spread across the country’s foothills and fields.
+                                <br>
+                                Infusion time: 8 to 7 minutes
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- products-number3 -->
+        <div class="products-margin">
+            <div class="px-3">
+                <div class="px-2">
+                    <div class="d-flex justify-content-center">
+                        <div>
+                            <img src="./images/product-tea-4-1.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-center">
+                        <div class="d-flex align-items-center p-3 container border-bottom border-secondary">
+                            <div>
+                                <img src="./images/herbal-icon.png" alt="">
+                            </div>
+                            <div class="span-widget">
+                                <span class="h2-color-red ">Breakfast Tea</span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-column border-bottom border-secondary">
+                            <div class="pt-1">
+                                <p class="p-products-color p-products-fs fw-bold">Net Weight</p>
+                            </div>
+                            <div class="d-flex justify-content-end pb-1">
+                                <div class="pe-1">
+                                    <img src="./images/500gr-icon-2.png" alt="">
+                                </div>
+
+                                <div class="pe-1">
+                                    <img src="./images/100gr-icon-1-1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-4">
+                            <p class="text-justify h2-color-gray">
+                                Being a blend of the best Indian CTC (crush, tear, curl) teas, our
+                                breakfast tea has a natural color and a mellow flavor suitable for breakfast as it
+                                infuses
+                                quickly. It is also economical for its superior coloring strength.
+                                <br>
+                                Infusion time: 7 to 8 minutes
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- products-number4 -->
+        <div class="products-margin">
+            <div class="px-3">
+                <div class="px-2">
+                    <div class="d-flex justify-content-center">
+                        <div>
+                            <img src="./images/product-tea-Darjeeling.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-center">
+                        <div class="d-flex align-items-center p-3 container border-bottom border-secondary">
+                            <div>
+                                <img src="./images/herbal-icon.png" alt="">
+                            </div>
+                            <div class="span-widget">
+                                <span class="h2-color-red ">Darjeeling Premium Tea</span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-column border-bottom border-secondary">
+                            <div class="pt-1">
+                                <p class="p-products-color p-products-fs fw-bold">Net Weight</p>
+                            </div>
+                            <div class="d-flex justify-content-end pb-1">
+                                <div class="pe-1">
+                                    <img src="./images/200gr-icon-1-1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-4">
+                            <p class="text-justify h2-color-gray">
+                                (not available)
+                                <br>
+                                <br>
+                                Darjeeling tea is a tea from the Darjeeling district in West Bengal, India.it is the
+                                most
+                                valuable tea in the world.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product-number5 -->
+        <div class="products-margin">
+            <div class="px-3">
+                <div class="px-2">
+                    <div class="d-flex justify-content-center">
+                        <div>
+                            <img src="./images/product-tea-1-1.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-center">
+                        <div class="d-flex align-items-center p-3 container border-bottom border-secondary">
+                            <div>
+                                <img src="./images/herbal-icon.png" alt="">
+                            </div>
+                            <div class="span-widget">
+                                <span class="h2-color-red ">Fragrant Earl Grey Tea</span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-column border-bottom border-secondary">
+                            <div class="pt-1">
+                                <p class="p-products-color p-products-fs fw-bold">Net Weight</p>
+                            </div>
+                            <div class="d-flex justify-content-end pb-1">
+                                <div class="pe-1">
+                                    <img src="./images/500gr-icon-2.png" alt="">
+                                </div>
+                                <div class="pe-1">
+                                    <img src="./images/225gr-icon-2.png" alt="">
+                                </div>
+                                <div class="pe-1">
+                                    <img src="./images/100gr-icon-1-1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-4">
+                            <p class="text-justify h2-color-gray">
+                                Golestan Earl Grey tea is a unique blend of imported teas scented with
+                                bergamot. The tea suits Iranian palates.
+                                <br>
+                                Infusion time: 7 to 8 minutes
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

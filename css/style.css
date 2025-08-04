@@ -6,8 +6,12 @@
   font-family: sans-serif;
 }
 
-.golestan-logo img {
+.golestan-logo .sm-logo {
   width: 143px;
+}
+
+.lg-logo {
+  top: -17px;
 }
 
 .bg_color {
@@ -39,5 +43,47 @@
 }
 
 .golestan-tea-fs-md {
-    font-size: 53px;
+  font-size: 53px;
+}
+
+.navbar-desktop-lg {
+  padding: 15px 30px 9px 0px;
+}
+
+.p-intro-text-fs {
+  font-size: 19px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.products-margin {
+  margin-top: 150px;
+}
+
+.span-widget {
+  margin-top: 39px;
+}
+
+.p-products-color {
+  color: #52575b;
+}
+
+.p-products-fs {
+  font-size: 18px;
+}
+
+@media all and (min-width: 768px) {
+  .display-md {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .border-lg {
+    border-right: 1px solid #94979a;
+  }
 }
