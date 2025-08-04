@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  font-family: sans-serif;
+}
+
+.golestan-logo img {
+  width: 143px;
+}
+
+.bg_color {
+  background-color: #4a4a4a;
+}
+
+.menu_icon {
+  margin-left: 257px;
+}
+
+.navbar-text-color {
+  color: #afb2b4;
+}
+
+.h2-color-red {
+  color: #ff0000;
+}
+
+.h2-color-gray {
+  color: #94979a;
+}
+
+.h2-title-fs {
+  font-size: 20px;
+}
+
+.section-1-bg {
+  background-image: linear-gradient(#f8f8f8, #d9d9d9);
+}
+
+.golestan-tea-fs-md {
+    font-size: 53px;
+}
