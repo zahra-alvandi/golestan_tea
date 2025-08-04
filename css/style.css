@@ -86,4 +86,20 @@
   .border-lg {
     border-right: 1px solid #94979a;
   }
+  .container-lg {
+    width: 50% !important;
+  }
+  .display-md {
+    gap: 35px;
+  }
+  .text-box-lg {
+    width: 466px;
+  }
+  .fs-lg {
+    font-size: 22px;
+  }
+  .p-fs-lg {
+    font-size: 20px;
+    font-weight: 300;
+  }
 }
